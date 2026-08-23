@@ -23,7 +23,7 @@ from ultralytics import YOLO
 
 AGENT_TRAITEMENT_URL = os.environ.get(
     "AGENT_TRAITEMENT_URL",
-    "http://127.0.0.1:8001/traitement"
+    "https://agent-traitement-production.up.railway.app/traitement"
 )
 
 
